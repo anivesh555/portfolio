@@ -43,7 +43,7 @@ export const projectsData = [
             'Implemented role-based authentication, subscription plans, Stripe payments, and Cron job scheduling for workflow automation.',
             'Enhanced system observability and debugging with Grafana, Loki, and Prometheus.',
             'Designed robust CI/CD pipelines for a monorepo setup using Jenkins, ensuring efficient and reliable deployments.',
-            'Developed the frontend with Next.js, TailwindCSS, and Formik for a seamless user experience.',
+            'Collaborated on Kafka-based data pipelines for real-time communication between services.',
         ],
         tools: [
             'Express',
