@@ -3,7 +3,7 @@ export const projectsData = [
         id: 1,
         name: 'RecQarz',
         description:
-            'AI-powered financial mobile application to manage notices, settlements, and user communications. Designed MongoDB schemas for users, payments, meetings, and notifications. Integrated email, SMS, and WhatsApp workflows to send dynamically generated PDFs. Used AWS EC2, S3 for file storage, deployment, and domain management.',
+            'RecQarz is an AI-powered financial mobile application designed to streamline the management of notices, settlements, and user communications. I developed MongoDB schemas for users, payments, meetings, and notifications, ensuring efficient data organization. The project involved integrating email, SMS, and WhatsApp workflows to deliver dynamically generated PDFs, enhancing automation and communication. Deployment and file storage were managed using AWS EC2 and S3, with PM2 and Nginx ensuring stable performance and domain management.',
         tools: [
             'Express',
             'TypeScript',
@@ -27,7 +27,7 @@ export const projectsData = [
         id: 2,
         name: 'CALL-AI',
         description:
-            'Sales enablement SaaS platform that automates dialers/CRMs to capture call data and process it with ML models. Built backend with Sanic and Gino ORM, using Postgres for storage. Integrated APIs, SDKs, and webhooks to fetch and process data in real-time.',
+            'CALL-AI is a sales enablement SaaS platform that automates dialers and CRMs to capture and process call data using machine learning models. I built the backend using Sanic and Gino ORM, leveraging PostgreSQL for efficient data storage. The platform integrates multiple APIs, SDKs, and webhooks to fetch, process, and analyze call data in real time, providing valuable insights and automation capabilities for sales teams.',
         tools: ['Python', 'Sanic', 'Gino', 'Postgres'],
         role: 'Backend Developer',
         code: '',
@@ -37,14 +37,8 @@ export const projectsData = [
     {
         id: 3,
         name: 'MyGold',
-        description: [
-            'Built a fault-tolerant, scalable backend infrastructure using Express, TypeScript, MongoDB, Kubernetes, AWS, and Terraform.',
-            'Developed AI-driven real estate features by integrating OpenAI and Replicate APIs for intelligent automation and image processing.',
-            'Implemented role-based authentication, subscription plans, Stripe payments, and Cron job scheduling for workflow automation.',
-            'Enhanced system observability and debugging with Grafana, Loki, and Prometheus.',
-            'Designed robust CI/CD pipelines for a monorepo setup using Jenkins, ensuring efficient and reliable deployments.',
-            'Collaborated on Kafka-based data pipelines for real-time communication between services.',
-        ],
+        description:
+            'MyGold features a scalable and fault-tolerant backend built with Express, TypeScript, MongoDB, Kubernetes, AWS, and Terraform. I developed AI-driven real estate functionalities by integrating OpenAI and Replicate APIs for intelligent automation and image processing. The system includes role-based authentication, subscription management, and Stripe payments, with Cron jobs automating workflow operations. Observability was enhanced using Grafana, Loki, and Prometheus, while Jenkins-powered CI/CD pipelines ensured seamless monorepo deployments. Additionally, I collaborated on Kafka-based data pipelines to support real-time inter-service communication.',
         tools: [
             'Express',
             'TypeScript',
@@ -67,20 +61,4 @@ export const projectsData = [
         demo: '',
         link: '',
     }
-
 ];
-
-
-
-// Do not remove any property.
-// Leave it blank instead as shown below
-
-// {
-//     id: 1,
-//     name: '',
-//     description: "",
-//     tools: [],
-//     role: '',
-//     code: '',
-//     demo: '',
-// },
